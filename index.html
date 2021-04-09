@@ -17,14 +17,17 @@
         <p id="game-name" class="text">QUIZ | GAME</p>
         <p id="score-id" class="text">Your Score : 0</p>
         <div class="main-display">
-            <div id="question">Queistion</div>
+            <div id="question">Question</div>
         </div>
         <div class="buttons-div">
-            <button id="true_button" class="buttn true_button"><span>True</span></button>
-            <button id="false_button" class="buttn false_button"><span>False</span></button>
+            <button id="true_button" class="buttn true_button" onclick="agree()"><span>True</span></button>
+            <button id="false_button" class="buttn false_button" onclick="disagree()"><span>False</span></button>
         </div>
         <div class="buttons-div">
-            <button id="next_button" class="buttn next_button">Next Question</button>
+            <button id="next_button" class="buttn next_button" onclick="toNext()">Next Question</button>
+        </div>
+        <div class="button-div">
+            <button id="refresh_button" class="buttn next_button" onclick="refresh()">Refresh Game</button>
         </div>
     </div>
     <script src="./assets/js/script.js"></script>

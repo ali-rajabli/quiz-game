@@ -247,3 +247,7 @@ body {
 .next_button:active {
     top: 2px;
 }
+
+#refresh_button {
+    visibility: hidden;
+}
